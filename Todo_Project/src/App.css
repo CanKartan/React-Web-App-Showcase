@@ -1,0 +1,13 @@
+.TodoCreatMain {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.TodoCreatMain h2 {
+    font-size: 3.5vh;
+    color: #fff;
+}

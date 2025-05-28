@@ -1,0 +1,39 @@
+.TodosMain {
+    margin: 50px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.List {
+    max-width: 200px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.TodosMain .Todos h4 {
+    font-size: 2vh;
+    text-align: center;
+    color: #fff;
+}
+
+.todo-card {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
