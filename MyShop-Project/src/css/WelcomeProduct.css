@@ -1,0 +1,19 @@
+.welcome-product-button {
+    user-select: none;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color: #FF7D29;
+    border-radius: 7px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: all 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcome-product-button:hover {
+    transform: scale(0.95);
+    color: #FF7D29;
+    background-color: #fff;
+}

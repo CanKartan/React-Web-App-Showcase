@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.product-card-detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #fff;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.product-detail-img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.product-detail-img:hover {
+    transform: scale(0.95);
+}
+
+.product-detail-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.product-detail-content h2 {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.detail-description {
+    font-size: 2vh;
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.detail-price {
+    font-family: "DM Sans", sans-serif;
+    font-size: 2.5vh;
+    margin-bottom: 15px;
+}
+
+.detail-icons {
+    font-family: "DM Sans", sans-serif;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.add-buton {
+    user-select: none;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color: #FF7D29;
+    border-radius: 7px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: all 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-buton:hover {
+    transform: scale(0.95);
+    color: #FF7D29;
+    background-color: #fff;
+}
+
+.detail-comments {
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    background-color: rgba(255, 125, 41, 0.8);
+}
+
+.detail-comments h4 {
+    user-select: none;
+    padding: 10px;
+    font-size: 4vh;
+    color: #309898;
+    font-family: "DM Sans", sans-serif;
+    border-bottom: 1px solid #fff;
+}
+
+.detail-comment-card {
+    font-family: "Josefin Sans", sans-serif;
+    border-bottom: 1px solid #fff;
+    margin: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.comment-name {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.comment-name p {
+    padding-left: 10px;
+}

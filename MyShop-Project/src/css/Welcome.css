@@ -1,0 +1,19 @@
+.welcome-container {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.welcome-container h1 {
+    color: #FF7D29;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+.welcome-circle {
+    color: #309898;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    left: 380px;
+}

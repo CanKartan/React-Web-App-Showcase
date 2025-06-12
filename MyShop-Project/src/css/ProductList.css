@@ -1,0 +1,5 @@
+.product-list {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
